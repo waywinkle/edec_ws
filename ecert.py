@@ -38,9 +38,9 @@ def call_ecert(wsdl, username, password, date_range):
                 else:
                     cert_dict = dict()
                     cert_dict['certificate_id'] = cert
-                    xml_string = get_cert_details(client, cert)
-                    cert_dict.update(get_ecert_elements(get_xml_root_from_string(xml_string)))
-                    cert_dict['header']['xml'] = xml_string
+                    xml_root = get_xml_root_from_string(get_cert_details(client, cert))
+                    cert_dict.update(get_ecert_elements(xml_root))
+                    cert_dict['header']['xml_data'] = xml_root
                     certs.append(cert_dict)
 
         page += 1

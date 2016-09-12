@@ -9,22 +9,8 @@ from xml_file_parse import get_xml_root_from_file
 CON_STRING = urllib.quote_plus(get_property('properties.json', 'connection_string'))
 XML_FILE = 'test_xml\data_raw_material.xml'
 TEST_RECORDS = [{
-    'certificate_id': 'ASDF1234',
-    'update_date': datetime(year=2016, month=2, day=5),
-    'xml_data': get_xml_root_from_file(XML_FILE),
-    'status': 'approved',
-    'departure_date': datetime(year=2016, month=2, day=5),
-    'consignor_id': 'asdfee',
-    'consignee_id': 'EEIRIRI'
-},
-{
-    'certificate_id': 'ASDF2234',
-    'update_date': datetime(year=2016, month=2, day=5),
-    'xml_data': get_xml_root_from_file(XML_FILE),
-    'status': 'approved',
-    'departure_date': datetime(year=2016, month=2, day=5),
-    'consignor_id': 'asdfee',
-    'consignee_id': 'EEIRIRI'
+    'certificate_id': 'NZL2015/S3002/10027T',
+    'lot': 'asdfasdf'
 }
 ]
 
@@ -37,7 +23,10 @@ def check_cert(cert_id):
     Session = sessionmaker(bind=get_engine())
     session = Session()
     q = session.query(Ecert).filter(Ecert.certificate_id == cert_id)
-    return session.query(literal(True)).filter(q.exists()).scalar()
+    if session.query(literal(True)).filter(q.exists()).scalar():
+        return True
+    else:
+        return False
 
 
 def add_records(rows_list, table_map):
@@ -59,7 +48,7 @@ def create_structure():
 
 
 if __name__ == '__main__':
-    # add_records(TEST_RECORDS, Ecert)
+    add_records(TEST_RECORDS, Product)
     result = check_cert('ASDF2234')
     print(result)
 
