@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ed:Certificate xmlns="http://sancrt.mpi.govt.nz/ecert/2013/ed-multiple-submission-schema.xsd" xmlns:ed="http://sancrt.mpi.govt.nz/ecert/2013/ed-submission-schema.xsd">
+    <ed:Status Code="39">Approved</ed:Status>
+    <ed:LastUpdatedDate>2016-06-21T15:10:28+12:00</ed:LastUpdatedDate>
+    <ed:Identifiers>
+        <ed:CertificateID>NZL2016/S3008/120665T</ed:CertificateID>
+        <ed:TemplateID>ED1.4</ed:TemplateID>
+    </ed:Identifiers>
+    <ed:Exhausted>false</ed:Exhausted>
+    <ed:AutoApproval>true</ed:AutoApproval>
+    <ed:DepartureDate>2016-06-17</ed:DepartureDate>
+    <ed:Parties>
+        <ed:ConsignorID>S3008</ed:ConsignorID>
+        <ed:ConsigneeID>540</ed:ConsigneeID>
+        <ed:ThirdParty>
+            <ed:ID>540</ed:ID>
+        </ed:ThirdParty>
+    </ed:Parties>
+    <ed:Transport>
+        <ed:TransportMode>3</ed:TransportMode>
+        <ed:LocalCarrier>P1000</ed:LocalCarrier>
+    </ed:Transport>
+    <ed:Remarks>
+        <ed:Remark>
+            <ed:RemarkType>Unofficial Information</ed:RemarkType>
+            <ed:RemarkValue>PO2004714, PO2003895, PO2004307, PO2004306, DO264557, DO264551 Delivery Number 695605, 695589, 695604  RLAC00002, RLAC00003, RDRY00001 1602100252,\n1602100253,1602100254,1602100256,1605100012,1605100155,1606100135</ed:RemarkValue>
+        </ed:Remark>
+    </ed:Remarks>
+    <ed:Products>
+        <ed:Product>
+            <ed:ProductItem>1</ed:ProductItem>
+            <ed:Exhausted>false</ed:Exhausted>
+            <ed:Origin>IS</ed:Origin>
+            <ed:Description>370030</ed:Description>
+            <ed:CommonName>Bovine</ed:CommonName>
+            <ed:EligibilityCountries>
+                <ed:EligibilityCountryID>ZZ</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>CN</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>EU</ed:EligibilityCountryID>
+            </ed:EligibilityCountries>
+            <ed:ProductionBatch>1602100252</ed:ProductionBatch>
+            <ed:IntendedUse>consumption</ed:IntendedUse>
+            <ed:NetWeight unitCode="KGM">22000</ed:NetWeight>
+            <ed:Remarks>
+                <ed:Remark>
+                    <ed:RemarkType>Product Statement</ed:RemarkType>
+                    <ed:RemarkValue>CN, EU are pending further processing. Product of France</ed:RemarkValue>
+                </ed:Remark>
+                <ed:Remark>
+                    <ed:RemarkType>Product Reference</ed:RemarkType>
+                    <ed:RemarkValue>Pallet No. M7000069046,M7000069060,M7000069053,\nM7000069051,M7000069058,M7000069050,M7000069056\nM7000069047,M7000069048,M7000069045,M7000069059\nM7000069054,M7000069052,M7000069057,M7000069055\nM7000069049</ed:RemarkValue>
+                </ed:Remark>
+            </ed:Remarks>
+            <ed:Classifications>
+                <ed:Classification>
+                    <ed:ClassificationType>Temperature</ed:ClassificationType>
+                    <ed:ClassificationValue>ambient</ed:ClassificationValue>
+                </ed:Classification>
+                <ed:Classification>
+                    <ed:ClassificationType>New Zealand Harmonised System Code</ed:ClassificationType>
+                    <ed:ClassificationValue>040410</ed:ClassificationValue>
+                </ed:Classification>
+            </ed:Classifications>
+            <ed:Packaging>
+                <ed:Package>
+                    <ed:Quantity>880</ed:Quantity>
+                    <ed:Type>BG</ed:Type>
+                    <ed:Level>1</ed:Level>
+                </ed:Package>
+            </ed:Packaging>
+            <ed:Processes>
+                <ed:Process>s
+                    <ed:ProcessTypeCode>NRS</ed:ProcessTypeCode>
+                    <ed:StartDate>2016-02-19</ed:StartDate>
+                    <ed:EndDate>2016-06-17</ed:EndDate>
+                    <ed:DateOverride>false</ed:DateOverride>
+                    <ed:Premise>
+                        <ed:ID>S3008</ed:ID>
+                    </ed:Premise>
+                </ed:Process>
+            </ed:Processes>
+            <ed:SupportingDocumentReferences>
+                <ed:SupportingDocumentReference>
+                    <ed:SupportingDocumentID>2016/FIC/42664</ed:SupportingDocumentID>
+                </ed:SupportingDocumentReference>
+            </ed:SupportingDocumentReferences>
+        </ed:Product>
+        <ed:Product>
+            <ed:ProductItem>2</ed:ProductItem>
+            <ed:Exhausted>false</ed:Exhausted>
+            <ed:Origin>IS</ed:Origin>
+            <ed:Description>370030</ed:Description>
+            <ed:CommonName>Bovine</ed:CommonName>
+            <ed:EligibilityCountries>
+                <ed:EligibilityCountryID>ZZ</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>CN</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>EU</ed:EligibilityCountryID>
+            </ed:EligibilityCountries>
+            <ed:ProductionBatch>1602100254</ed:ProductionBatch>
+            <ed:IntendedUse>consumption</ed:IntendedUse>
+            <ed:NetWeight unitCode="KGM">5500</ed:NetWeight>
+            <ed:Remarks>
+                <ed:Remark>
+                    <ed:RemarkType>Product Statement</ed:RemarkType>
+                    <ed:RemarkValue>CN, EU are pending further processing. Product of France</ed:RemarkValue>
+                </ed:Remark>
+                <ed:Remark>
+                    <ed:RemarkType>Product Reference</ed:RemarkType>
+                    <ed:RemarkValue>Pallet No. M7000069093,M7000069092,M7000069091,\nM7000069094</ed:RemarkValue>
+                </ed:Remark>
+            </ed:Remarks>
+            <ed:Classifications>
+                <ed:Classification>
+                    <ed:ClassificationType>Temperature</ed:ClassificationType>
+                    <ed:ClassificationValue>ambient</ed:ClassificationValue>
+                </ed:Classification>
+                <ed:Classification>
+                    <ed:ClassificationType>New Zealand Harmonised System Code</ed:ClassificationType>
+                    <ed:ClassificationValue>040410</ed:ClassificationValue>
+                </ed:Classification>
+            </ed:Classifications>
+            <ed:Packaging>
+                <ed:Package>
+                    <ed:Quantity>220</ed:Quantity>
+                    <ed:Type>BG</ed:Type>
+                    <ed:Level>1</ed:Level>
+                </ed:Package>
+            </ed:Packaging>
+            <ed:Processes>
+                <ed:Process>
+                    <ed:ProcessTypeCode>NRS</ed:ProcessTypeCode>
+                    <ed:StartDate>2016-02-19</ed:StartDate>
+                    <ed:EndDate>2016-06-17</ed:EndDate>
+                    <ed:DateOverride>false</ed:DateOverride>
+                    <ed:Premise>
+                        <ed:ID>S3008</ed:ID>
+                    </ed:Premise>
+                </ed:Process>
+            </ed:Processes>
+            <ed:SupportingDocumentReferences>
+                <ed:SupportingDocumentReference>
+                    <ed:SupportingDocumentID>2016/FIC/42664</ed:SupportingDocumentID>
+                </ed:SupportingDocumentReference>
+            </ed:SupportingDocumentReferences>
+        </ed:Product>
+        <ed:Product>
+            <ed:ProductItem>3</ed:ProductItem>
+            <ed:Exhausted>false</ed:Exhausted>
+            <ed:Origin>IS</ed:Origin>
+            <ed:Description>370030</ed:Description>
+            <ed:CommonName>Bovine</ed:CommonName>
+            <ed:EligibilityCountries>
+                <ed:EligibilityCountryID>ZZ</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>CN</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>EU</ed:EligibilityCountryID>
+            </ed:EligibilityCountries>
+            <ed:ProductionBatch>1602100253</ed:ProductionBatch>
+            <ed:IntendedUse>consumption</ed:IntendedUse>
+            <ed:NetWeight unitCode="KGM">2750</ed:NetWeight>
+            <ed:Remarks>
+                <ed:Remark>
+                    <ed:RemarkType>Product Statement</ed:RemarkType>
+                    <ed:RemarkValue>CN, EU are pending further processing. Product of France</ed:RemarkValue>
+                </ed:Remark>
+                <ed:Remark>
+                    <ed:RemarkType>Product Reference</ed:RemarkType>
+                    <ed:RemarkValue>Pallet No. M7000069077,M7000069074</ed:RemarkValue>
+                </ed:Remark>
+            </ed:Remarks>
+            <ed:Classifications>
+                <ed:Classification>
+                    <ed:ClassificationType>Temperature</ed:ClassificationType>
+                    <ed:ClassificationValue>ambient</ed:ClassificationValue>
+                </ed:Classification>
+                <ed:Classification>
+                    <ed:ClassificationType>New Zealand Harmonised System Code</ed:ClassificationType>
+                    <ed:ClassificationValue>040410</ed:ClassificationValue>
+                </ed:Classification>
+            </ed:Classifications>
+            <ed:Packaging>
+                <ed:Package>
+                    <ed:Quantity>110</ed:Quantity>
+                    <ed:Type>BG</ed:Type>
+                    <ed:Level>1</ed:Level>
+                </ed:Package>
+            </ed:Packaging>
+            <ed:Processes>
+                <ed:Process>
+                    <ed:ProcessTypeCode>NRS</ed:ProcessTypeCode>
+                    <ed:StartDate>2016-02-19</ed:StartDate>
+                    <ed:EndDate>2016-06-17</ed:EndDate>
+                    <ed:DateOverride>false</ed:DateOverride>
+                    <ed:Premise>
+                        <ed:ID>S3008</ed:ID>
+                    </ed:Premise>
+                </ed:Process>
+            </ed:Processes>
+            <ed:SupportingDocumentReferences>
+                <ed:SupportingDocumentReference>
+                    <ed:SupportingDocumentID>2016/FIC/42664</ed:SupportingDocumentID>
+                </ed:SupportingDocumentReference>
+            </ed:SupportingDocumentReferences>
+        </ed:Product>
+        <ed:Product>
+            <ed:ProductItem>4</ed:ProductItem>
+            <ed:Exhausted>false</ed:Exhausted>
+            <ed:Origin>IS</ed:Origin>
+            <ed:Description>370030</ed:Description>
+            <ed:CommonName>Bovine</ed:CommonName>
+            <ed:EligibilityCountries>
+                <ed:EligibilityCountryID>ZZ</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>CN</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>EU</ed:EligibilityCountryID>
+            </ed:EligibilityCountries>
+            <ed:ProductionBatch>1602100256</ed:ProductionBatch>
+            <ed:IntendedUse>consumption</ed:IntendedUse>
+            <ed:NetWeight unitCode="KGM">2750</ed:NetWeight>
+            <ed:Remarks>
+                <ed:Remark>
+                    <ed:RemarkType>Product Statement</ed:RemarkType>
+                    <ed:RemarkValue>CN, EU are pending further processing. Product of France</ed:RemarkValue>
+                </ed:Remark>
+                <ed:Remark>
+                    <ed:RemarkType>Product Reference</ed:RemarkType>
+                    <ed:RemarkValue>Pallet No. M7000069117, M7000069118</ed:RemarkValue>
+                </ed:Remark>
+            </ed:Remarks>
+            <ed:Classifications>
+                <ed:Classification>
+                    <ed:ClassificationType>Temperature</ed:ClassificationType>
+                    <ed:ClassificationValue>ambient</ed:ClassificationValue>
+                </ed:Classification>
+                <ed:Classification>
+                    <ed:ClassificationType>New Zealand Harmonised System Code</ed:ClassificationType>
+                    <ed:ClassificationValue>040410</ed:ClassificationValue>
+                </ed:Classification>
+            </ed:Classifications>
+            <ed:Packaging>
+                <ed:Package>
+                    <ed:Quantity>110</ed:Quantity>
+                    <ed:Type>BG</ed:Type>
+                    <ed:Level>1</ed:Level>
+                </ed:Package>
+            </ed:Packaging>
+            <ed:Processes>
+                <ed:Process>
+                    <ed:ProcessTypeCode>NRS</ed:ProcessTypeCode>
+                    <ed:StartDate>2016-02-19</ed:StartDate>
+                    <ed:EndDate>2016-06-17</ed:EndDate>
+                    <ed:DateOverride>false</ed:DateOverride>
+                    <ed:Premise>
+                        <ed:ID>S3008</ed:ID>
+                    </ed:Premise>
+                </ed:Process>
+            </ed:Processes>
+            <ed:SupportingDocumentReferences>
+                <ed:SupportingDocumentReference>
+                    <ed:SupportingDocumentID>2016/FIC/42664</ed:SupportingDocumentID>
+                </ed:SupportingDocumentReference>
+            </ed:SupportingDocumentReferences>
+        </ed:Product>
+        <ed:Product>
+            <ed:ProductItem>5</ed:ProductItem>
+            <ed:Exhausted>false</ed:Exhausted>
+            <ed:Origin>IS</ed:Origin>
+            <ed:Description>250020</ed:Description>
+            <ed:CommonName>Bovine</ed:CommonName>
+            <ed:EligibilityCountries>
+                <ed:EligibilityCountryID>ZZ</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>CN</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>EU</ed:EligibilityCountryID>
+            </ed:EligibilityCountries>
+            <ed:ProductionBatch>1606100135</ed:ProductionBatch>
+            <ed:IntendedUse>consumption</ed:IntendedUse>
+            <ed:NetWeight unitCode="KGM">18000</ed:NetWeight>
+            <ed:Remarks>
+                <ed:Remark>
+                    <ed:RemarkType>Product Statement</ed:RemarkType>
+                    <ed:RemarkValue>CN, EU are pending further processing. Product of United States</ed:RemarkValue>
+                </ed:Remark>
+                <ed:Remark>
+                    <ed:RemarkType>Product Reference</ed:RemarkType>
+                    <ed:RemarkValue>Pallet No. M7000075465,M7000075466,M7000075470,\nM7000075469,M7000075464,M7000075463,M7000075441\nM7000075448,M7000075449,M7000075453,M7000075536\nM7000075537,M7000075535,M7000075534,M7000075451\nM7000075452,M7000075440,M7000075450</ed:RemarkValue>
+                </ed:Remark>
+            </ed:Remarks>
+            <ed:Classifications>
+                <ed:Classification>
+                    <ed:ClassificationType>Temperature</ed:ClassificationType>
+                    <ed:ClassificationValue>ambient</ed:ClassificationValue>
+                </ed:Classification>
+                <ed:Classification>
+                    <ed:ClassificationType>New Zealand Harmonised System Code</ed:ClassificationType>
+                    <ed:ClassificationValue>170211</ed:ClassificationValue>
+                </ed:Classification>
+            </ed:Classifications>
+            <ed:Packaging>
+                <ed:Package>
+                    <ed:Quantity>18</ed:Quantity>
+                    <ed:Type>BG</ed:Type>
+                    <ed:Level>1</ed:Level>
+                </ed:Package>
+            </ed:Packaging>
+            <ed:Processes>
+                <ed:Process>
+                    <ed:ProcessTypeCode>NRS</ed:ProcessTypeCode>
+                    <ed:StartDate>2016-06-14</ed:StartDate>
+                    <ed:EndDate>2016-06-17</ed:EndDate>
+                    <ed:DateOverride>false</ed:DateOverride>
+                    <ed:Premise>
+                        <ed:ID>S3008</ed:ID>
+                    </ed:Premise>
+                </ed:Process>
+            </ed:Processes>
+            <ed:SupportingDocumentReferences>
+                <ed:SupportingDocumentReference>
+                    <ed:SupportingDocumentID>2016/FIC/47453</ed:SupportingDocumentID>
+                </ed:SupportingDocumentReference>
+            </ed:SupportingDocumentReferences>
+        </ed:Product>
+        <ed:Product>
+            <ed:ProductItem>6</ed:ProductItem>
+            <ed:Exhausted>false</ed:Exhausted>
+            <ed:Origin>IS</ed:Origin>
+            <ed:Description>250020</ed:Description>
+            <ed:CommonName>Bovine</ed:CommonName>
+            <ed:EligibilityCountries>
+                <ed:EligibilityCountryID>ZZ</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>CN</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>EU</ed:EligibilityCountryID>
+            </ed:EligibilityCountries>
+            <ed:ProductionBatch>1605100155</ed:ProductionBatch>
+            <ed:IntendedUse>consumption</ed:IntendedUse>
+            <ed:NetWeight unitCode="KGM">6000</ed:NetWeight>
+            <ed:Remarks>
+                <ed:Remark>
+                    <ed:RemarkType>Product Statement</ed:RemarkType>
+                    <ed:RemarkValue>CN, EU are pending further processing. Product of United States</ed:RemarkValue>
+                </ed:Remark>
+                <ed:Remark>
+                    <ed:RemarkType>Product Reference</ed:RemarkType>
+                    <ed:RemarkValue>Pallet No. M7000074039,M7000074038,M7000074037\nM7000074040,M7000074030,M7000074061</ed:RemarkValue>
+                </ed:Remark>
+            </ed:Remarks>
+            <ed:Classifications>
+                <ed:Classification>
+                    <ed:ClassificationType>Temperature</ed:ClassificationType>
+                    <ed:ClassificationValue>ambient</ed:ClassificationValue>
+                </ed:Classification>
+                <ed:Classification>
+                    <ed:ClassificationType>New Zealand Harmonised System Code</ed:ClassificationType>
+                    <ed:ClassificationValue>170211</ed:ClassificationValue>
+                </ed:Classification>
+            </ed:Classifications>
+            <ed:Packaging>
+                <ed:Package>
+                    <ed:Quantity>240</ed:Quantity>
+                    <ed:Type>BG</ed:Type>
+                    <ed:Level>1</ed:Level>
+                </ed:Package>
+            </ed:Packaging>
+            <ed:Processes>
+                <ed:Process>
+                    <ed:ProcessTypeCode>NRS</ed:ProcessTypeCode>
+                    <ed:StartDate>2016-05-12</ed:StartDate>
+                    <ed:EndDate>2016-06-17</ed:EndDate>
+                    <ed:DateOverride>false</ed:DateOverride>
+                    <ed:Premise>
+                        <ed:ID>S3008</ed:ID>
+                    </ed:Premise>
+                </ed:Process>
+            </ed:Processes>
+            <ed:SupportingDocumentReferences>
+                <ed:SupportingDocumentReference>
+                    <ed:SupportingDocumentID>2016/FIC/46136</ed:SupportingDocumentID>
+                </ed:SupportingDocumentReference>
+            </ed:SupportingDocumentReferences>
+        </ed:Product>
+        <ed:Product>
+            <ed:ProductItem>7</ed:ProductItem>
+            <ed:Exhausted>false</ed:Exhausted>
+            <ed:Origin>IS</ed:Origin>
+            <ed:Description>250020</ed:Description>
+            <ed:CommonName>Bovine</ed:CommonName>
+            <ed:EligibilityCountries>
+                <ed:EligibilityCountryID>ZZ</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>CN</ed:EligibilityCountryID>
+                <ed:EligibilityCountryID>EU</ed:EligibilityCountryID>
+            </ed:EligibilityCountries>
+            <ed:ProductionBatch>1605100012</ed:ProductionBatch>
+            <ed:IntendedUse>consumption</ed:IntendedUse>
+            <ed:NetWeight unitCode="KGM">3975</ed:NetWeight>
+            <ed:Remarks>
+                <ed:Remark>
+                    <ed:RemarkType>Product Statement</ed:RemarkType>
+                    <ed:RemarkValue>CN, EU are pending further processing. Product of United States</ed:RemarkValue>
+                </ed:Remark>
+                <ed:Remark>
+                    <ed:RemarkType>Product Reference</ed:RemarkType>
+                    <ed:RemarkValue>Pallet No. M7000073022,M7000073038,M7000073014\nM7000073036</ed:RemarkValue>
+                </ed:Remark>
+            </ed:Remarks>
+            <ed:Classifications>
+                <ed:Classification>
+                    <ed:ClassificationType>Temperature</ed:ClassificationType>
+                    <ed:ClassificationValue>ambient</ed:ClassificationValue>
+                </ed:Classification>
+                <ed:Classification>
+                    <ed:ClassificationType>New Zealand Harmonised System Code</ed:ClassificationType>
+                    <ed:ClassificationValue>170211</ed:ClassificationValue>
+                </ed:Classification>
+            </ed:Classifications>
+            <ed:Packaging>
+                <ed:Package>
+                    <ed:Quantity>159</ed:Quantity>
+                    <ed:Type>BG</ed:Type>
+                    <ed:Level>1</ed:Level>
+                </ed:Package>
+            </ed:Packaging>
+            <ed:Processes>
+                <ed:Process>
+                    <ed:ProcessTypeCode>NRS</ed:ProcessTypeCode>
+                    <ed:StartDate>2016-05-02</ed:StartDate>
+                    <ed:EndDate>2016-06-17</ed:EndDate>
+                    <ed:DateOverride>false</ed:DateOverride>
+                    <ed:Premise>
+                        <ed:ID>S3008</ed:ID>
+                    </ed:Premise>
+                </ed:Process>
+            </ed:Processes>
+            <ed:SupportingDocumentReferences>
+                <ed:SupportingDocumentReference>
+                    <ed:SupportingDocumentID>2016/FIC/45394</ed:SupportingDocumentID>
+                </ed:SupportingDocumentReference>
+            </ed:SupportingDocumentReferences>
+        </ed:Product>
+    </ed:Products>
+</ed:Certificate>

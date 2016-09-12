@@ -1,0 +1,6 @@
+{
+  "wsdl": "https:\/\/sancrt.mpi.govt.nz/ecert/services?wsdl",
+  "username": "network\\synlait_sys",
+  "password": "QtK$Fw5x",
+  "connection_string": "DRIVER={SQL Server Native Client 11.0};SERVER=SMLM3SQL2\\SMLSQL2TEST;DATABASE=ecert_extract_tst;UID=edec;Pwd=a1c8fiZwgXPM3B8YcVs!"
+}
