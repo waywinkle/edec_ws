@@ -5,6 +5,7 @@ from xml_file_parse import get_ecert_elements, get_xml_root_from_string
 from datetime import datetime
 from calendar import monthrange
 import pprint
+from ssl import SSLError
 
 TEST_FILE = get_file_location('data_export.xml')
 PROPERTIES = get_all_properties('properties.json')
@@ -27,9 +28,17 @@ def call_ecert(wsdl, username, password, date_range):
     certs = []
 
     while not end:
-        cert_for_day = client.service.find_eligibility_documents_by_update_date(page=page,
-                                                                                from_date=date_range['first'],
-                                                                                to_date=date_range['last'])
+        attempts = 0
+        while attempts < 3:
+            try:
+                cert_for_day = client.service.find_eligibility_documents_by_update_date(page=page,
+                                                                                        from_date=date_range['first'],
+                                                                                        to_date=date_range['last'])
+                break
+            except SSLError:
+                attempts += 1
+
+
 
         for item in cert_for_day:
             for cert in item[1]:
@@ -55,14 +64,14 @@ def get_cert_details(client, cert_id):
 
 
 if __name__ == '__main__':
-    result = call_ecert(PROPERTIES['wsdl'],
-                        PROPERTIES['username'],
-                        PROPERTIES['password'],
-                        {'first': datetime(2016, 8, 01), 'last': datetime(2016, 8, 02)})
-    # result = get_cert_details(connect(PROPERTIES['wsdl'],
-    #                                   PROPERTIES['username'],
-    #                                   PROPERTIES['password']),
-    #                                   'NZL2016/540/140162T')
+    # result = call_ecert(PROPERTIES['wsdl'],
+    #                     PROPERTIES['username'],
+    #                     PROPERTIES['password'],
+    #                     {'first': datetime(2016, 8, 01), 'last': datetime(2016, 8, 02)})
+    result = get_cert_details(connect(PROPERTIES['wsdl'],
+                                      PROPERTIES['username'],
+                                      PROPERTIES['password']),
+                                      'NZL2016/818/100636T')
     # result = range_from_date(datetime(2016, 8, 01))
     # print result
     pp = pprint.PrettyPrinter(indent=4)

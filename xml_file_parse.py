@@ -5,7 +5,7 @@ except ImportError:
 from properties import get_file_location
 from datetime import datetime
 
-FILE_NAME = 'test_xml\synlait_do_manual.xml'
+FILE_NAME = 'test_xml\\bad.xml'
 ECERT_NAMESPACE = {'n': 'http://sancrt.mpi.govt.nz/ecert/2013/ed-submission-schema.xsd'}
 
 
@@ -39,10 +39,10 @@ def get_ecert_elements(root):
     for product in root.findall('./n:Products/n:Product', ECERT_NAMESPACE):
         lot = dict()
         lot['certificate_id'] = cert_id
-        try:
+        if product.find('./n:ProductionBatch', ECERT_NAMESPACE):
             lot['lot'] = product.find('./n:ProductionBatch',
                                       ECERT_NAMESPACE).text
-        except AttributeError:
+        elif product.find('./n:Packaging/n:Package/n:ShippingMarks/n:Name', ECERT_NAMESPACE):
             lot['lot'] = product.find('./n:Packaging/n:Package/n:ShippingMarks/n:Name',
                                       ECERT_NAMESPACE).text
 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ed:Certificate xmlns="http://sancrt.mpi.govt.nz/ecert/2013/ed-multiple-submission-schema.xsd" xmlns:ed="http://sancrt.mpi.govt.nz/ecert/2013/ed-submission-schema.xsd">
+  <ed:Status Code="39">Approved</ed:Status>
+  <ed:LastUpdatedDate>2016-02-04T11:48:11+13:00</ed:LastUpdatedDate>
+  <ed:Identifiers>
+    <ed:CertificateID>NZL2016/818/100636T</ed:CertificateID>
+    <ed:TemplateID>ED1.4</ed:TemplateID>
+  </ed:Identifiers>
+  <ed:Exhausted>false</ed:Exhausted>
+  <ed:AutoApproval>false</ed:AutoApproval>
+  <ed:DepartureDate>2016-02-04</ed:DepartureDate>
+  <ed:Parties>
+    <ed:ConsignorID>818</ed:ConsignorID>
+    <ed:ConsigneeID>540</ed:ConsigneeID>
+  </ed:Parties>
+  <ed:Transport>
+    <ed:TransportMode>3</ed:TransportMode>
+    <ed:LocalCarrier>P1000</ed:LocalCarrier>
+  </ed:Transport>
+  <ed:Remarks>
+    <ed:Remark>
+      <ed:RemarkType>Unofficial Information</ed:RemarkType>
+      <ed:RemarkValue>Cream to Synlait. Consignment Docket No: 3647</ed:RemarkValue>
+    </ed:Remark>
+  </ed:Remarks>
+  <ed:Products>
+    <ed:Product>
+      <ed:ProductItem>1</ed:ProductItem>
+      <ed:Exhausted>false</ed:Exhausted>
+      <ed:Origin>AO</ed:Origin>
+      <ed:Description>260010</ed:Description>
+      <ed:CommonName>Bovine</ed:CommonName>
+      <ed:EligibilityCountries>
+        <ed:EligibilityCountryID>ZZ</ed:EligibilityCountryID>
+        <ed:EligibilityCountryID>CN</ed:EligibilityCountryID>
+        <ed:EligibilityCountryID>AU</ed:EligibilityCountryID>
+        <ed:EligibilityCountryID>EU</ed:EligibilityCountryID>
+      </ed:EligibilityCountries>
+      <ed:IntendedUse>consumption</ed:IntendedUse>
+      <ed:NetVolume unitCode="LTR">20100</ed:NetVolume>
+      <ed:Classifications>
+        <ed:Classification>
+          <ed:ClassificationType>Temperature</ed:ClassificationType>
+          <ed:ClassificationValue>chilled</ed:ClassificationValue>
+        </ed:Classification>
+        <ed:Classification>
+          <ed:ClassificationType>New Zealand Harmonised System Code</ed:ClassificationType>
+          <ed:ClassificationValue>040150</ed:ClassificationValue>
+        </ed:Classification>
+      </ed:Classifications>
+      <ed:Packaging>
+        <ed:Package>
+          <ed:Quantity>1</ed:Quantity>
+          <ed:Type>TY</ed:Type>
+          <ed:Level>1</ed:Level>
+        </ed:Package>
+      </ed:Packaging>
+      <ed:Processes>
+        <ed:Process>
+          <ed:ProcessTypeCode>MAN</ed:ProcessTypeCode>
+          <ed:StartDate>2016-02-04</ed:StartDate>
+          <ed:EndDate>2016-02-04</ed:EndDate>
+          <ed:DateOverride>false</ed:DateOverride>
+          <ed:Premise>
+            <ed:ID>818</ed:ID>
+          </ed:Premise>
+        </ed:Process>
+      </ed:Processes>
+    </ed:Product>
+  </ed:Products>
+</ed:Certificate>
