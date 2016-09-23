@@ -49,4 +49,4 @@ def retrieve_range(date_range):
 
 if __name__ == "__main__":
     # result = retrieve_ecerts({'first': datetime(2016, 8, 06), 'last': datetime(2016, 8, 31)}, PROPERTIES)
-    result = retrieve_range((datetime(2015, 1, 1), datetime(2015, 12, 31)))
+    result = retrieve_range((datetime(2015, 1, 23), datetime(2015, 2, 5)))

@@ -54,6 +54,7 @@ class Product(Base):
     id = Column(Integer, Sequence('product_id_seq'), primary_key=True)
     certificate_id = Column(String(60), ForeignKey('Ecert.certificate_id'))
     lot = Column(String(25))
+    product_item = Column(Integer)
 
     # ecert = relationship('certificate_id', back_populates='product')
 
