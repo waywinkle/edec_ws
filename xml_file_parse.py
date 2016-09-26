@@ -42,8 +42,12 @@ def get_ecert_elements(root):
         if product.find('./n:ProductionBatch', ECERT_NAMESPACE) is not None:
             lot['lot'] = product.find('./n:ProductionBatch',
                                       ECERT_NAMESPACE).text
+            lot['product_item'] = product.find('./n:ProductItem',
+                                      ECERT_NAMESPACE).text
         elif product.find('./n:Packaging/n:Package/n:ShippingMarks/n:Name', ECERT_NAMESPACE) is not None:
             lot['lot'] = product.find('./n:Packaging/n:Package/n:ShippingMarks/n:Name',
+                                      ECERT_NAMESPACE).text
+            lot['product_item'] = product.find('./n:ProductItem',
                                       ECERT_NAMESPACE).text
 
         lots.append(lot)

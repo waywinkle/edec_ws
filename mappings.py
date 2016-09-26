@@ -24,7 +24,7 @@ class XMLType(types.TypeDecorator):
 
     def process_result_value(self, value, dialect):
         if value is not None:
-            value = etree.fromstring(value)
+            value = etree.fromstring(value.encode('utf-8'))
         return value
 
 
@@ -59,8 +59,8 @@ class Product(Base):
     # ecert = relationship('certificate_id', back_populates='product')
 
     def __repr__(self):
-        return "<Product(lot='%s', description='%s')>" % (
-            self.lot, self.description
+        return "<Product(lot='%s')>" % (
+            self.lot
         )
 
 
